@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);
+ @import url(http://fonts.googleapis.com/css?family=Codystar|Poiret+One|Oleo+Script|Fredoka+One|Squada+One|Audiowide|Bevan|Comfortaa|Bangers|Nova+Square);
+ *, *:after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-size:16px;
+}
+body {
+    font-size:62.5%;
+    font-family:'Poiret One', 'cursive';
+    overflow-x:hidden;
+    background-color: #fff;
+}
+.container > header, .flitti-top {
+    font-family:'Lato', Arial, sans-serif;
+    font-size: 1.0rem;
+    font-style: italic;
+}
+.flitti-top .bottom {
+    font-size: 1.2rem;
+}
+.container > header {
+    margin: 0 auto;
+    padding: 3rem;
+    text-align: center;
+    color: #89867e;
+}
+.container > header h1 {
+    font-size: 4.625rem;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 300;
+}
+.container > header span {
+    display: block;
+    font-size: 60%;
+    color: #ceccc6;
+    padding: 0 0 0.6rem 0.1rem;
+}
+.header p {
+    font-size: 60%;
+}
+.content {
+    max-width: 69%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.content a {
+    color:#FFF;
+    font-family:'Comfortaa', 'cursive';
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.content a:hover {
+    opacity: 0.5;
+}
+/* To Navigation Style */
+ .flitti-top {
+    margin:1.5rem auto;
+    text-transform: uppercase;
+    width: 93%;
+    font-size: 0.69rem;
+    line-height: 2.2;
+}
+.flitti-top a {
+    text-decoration: none;
+    padding:0 .2rem;
+    letter-spacing: 0.1rem;
+    color: #888;
+    display: inline-block;
+}
+.flitti-top a:hover {
+    background: rgba(255, 255, 255, 0.95);
+    color: #716d62;
+}
+.flitti-top span.right {
+    float: right;
+}
+.flitti-top span.purple a {
+    float:right;
+    margin-left:.1rem;
+    margin-right:1rem;
+}
+.flitti-top span.right a {
+    float:right;
+    display: block;
+    margin-left:.1rem;
+}
+.fa .fa-facebook-square .fa-3x {
+    color:ccc;
+}
+.flitti-icon:before {
+    font-family:'font-awesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.fa:before {
+    content:"\e001";
+}
+.fa:before {
+    content:"\e004";
+}
+.container > section {
+    margin: 0 auto;
+    padding-top:10rem;
+    padding-bottom:10rem;
+    text-align: center;
+}
+.color-1 {
+    background: #0074D9;
+    color:#ecf0f1;
+}
+.color-2 {
+    background: #7FDBFF;
+    color: #d35400;
+    font-family:'Codystar', 'cursive';
+}
+.color-3 {
+    font-family:'Oleo Script', 'cursive';
+    background: #39CCCC;
+    color:#ecf0f1;
+}
+.color-4 {
+    font-family:'Fredoka One', 'cursive';
+    background: #FFDC00;
+    color:#2c3e50;
+}
+.color-5 {
+    font-family:'Squada One', 'cursive';
+    background: #2ECC40;
+    color:#c0392b;
+    i
+}
+.color-6 {
+    font-family:'Audiowide', 'cursive';
+    background: #0074D9;
+    color:#ecf0f1;
+}
+.color-7 {
+    font-family:'Bevan', 'cursive';
+    background: #FFDC00;
+    color:#2c3e50;
+}
+.color-8 {
+    font-family:'Comfortaa', 'cursive';
+    background: #FF851B;
+    color:#ecf0f1;
+}
+.color-9 {
+    font-family:'Bangers', 'cursive';
+    background: #FF4136;
+    color:#333;
+}
+.color-10 {
+    font-family:'Nova Square', 'cursive';
+    background: #60bea6;
+    color:#ecfof1;
+}
+
+@media screen and (max-width: 950px) {
+	.content {
+    max-width: 75%;
+    font-size: 1.3rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+    max-width: 78%;
+    font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.content {
+    max-width: 85%;
+    font-size: 1.0rem;
+	}
+}
