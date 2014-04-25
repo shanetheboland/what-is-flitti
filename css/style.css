@@ -97,7 +97,10 @@ header p {
 }
 
 
-
+.logo {
+    margin:0 auto;
+    width:132px;
+}
 
 
 /*------------------------------------*\
@@ -304,5 +307,8 @@ section {
     }
     header p {
         font-size:.7082rem;
+    }
+    .logo {
+        display:none;
     }
 }
