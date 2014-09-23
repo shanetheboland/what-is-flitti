@@ -1,0 +1,44 @@
+/*
+	Author: Shane Boland
+	Purpose: Defines variables for project. Mostly colors
+*/
+
+/*GREEN*/
+$green:#3CA188;
+$lightgreen:lighten($green, 10%);
+$darkgreen:darken($green, 10%);
+
+/*ORANGE*/
+$orange:#F8965D;
+$lightorange:lighten($orange, 10%);
+$darkorange:darken($orange, 10%);
+
+/*YELLOW*/
+$yellow:#F8BD5D;
+$lightyellow:lighten($yellow, 10%);
+$darkyellow:darken($yellow, 10%);
+
+/*RED*/
+$red:#DE5353;
+$lightred:lighten($red, 10%);
+$darkred:darken($red, 10%);
+
+/*BLUE*/
+$blue:#466EA2;
+$lightblue:lighten($blue, 10%);
+$darkblue:darken($blue, 10%);
+
+/*PURPLE*/
+$purple:#594EAC;
+$lightpurple:lighten($purple, 10%);
+$darkpurple:darken($purple, 10%);
+
+/*GRAYS*/
+$lightgray:#ecf0f1;
+$gray:darken($lightgray, 10%);
+$darkgray:darken($gray, 10%);
+$darkergray:darken($darkgray, 10%);
+$darkestgray:darken($darkergray, 10%);
+
+$white:#f1f1f1;
+$black:#222;
