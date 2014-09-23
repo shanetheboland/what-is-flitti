@@ -180,9 +180,15 @@ label {
         min-height:80%;
         height:auto;
     }
-    .content {
+    .content:not(#last) {
         position: relative;
     top: 0%;
     transform: translateY(100%);
+    }
+    .content#last {
+        position: relative;
+    top: 0%;
+    transform: translateY(0%);
+    padding-bottom:100px;
     }
 }
