@@ -44,14 +44,16 @@
             </div>
         </div>
         <div id="three-and-a-half" class="section">
-            <div class="content">
-                <img src="img/strength-weakness-analysis-BEFORE.png" width="85%">
-            </div>
+            <img class="full" src="img/strength-weakness-analysis-BEFORE.png">
+                <img class="full" src="img/strength-weakness-analysis-AFTER.png">
         </div>
         <div id="four" class="section">
             <div class="content">
                 <h3>You tell us which of these you excel at. Based on where you stand with Flitti’s 8 pillars of life, we suggest teammates for you to connect with that can help you along the way.</h3>
             </div>
+        </div>
+        <div id="four-and-a-half" class="section">
+            <img class="full-portrait" src="img/teammate-suggestion.png">
         </div>
         <div id="five" class="section">
             <div class="content">
@@ -65,15 +67,21 @@
                 <h3>Flitti starts you off slow by having you pick one pillar to work on. You can either build upon a strength or address a weak point.</h3>
             </div>
         </div>
+        <div id="six-and-a-half" class="section">
+            <img class="full-portrait" src="img/goal-choice.png">
+        </div>
         <div id="seven" class="section">
             <div class="content">
                 
                 <h3>Each of Flitti’s pillars is designed to help you achieve excellence in that area of life.</h3>
             </div>
         </div>
+        <div id="seven-and-a-half" class="section">
+            <img class="full-portrait" src="img/options.png">
+        </div>
         <div id="eight" class="section">
            <div class="content">
-                <h3>We realize that there isn’t a one size fits all solution for excellence in each pillar. That’s why Flitti learns with you and adapts the game of life to give you the highest chance for success.</h3>
+                <h3>We realize that there isn’t a one size fits all solution for excellence. That’s why Flitti learns with you and adapts the game of life to give you the best chance for success.</h3>
             </div>
         </div>
         <div id="nine" class="section">
@@ -97,11 +105,12 @@
         <div id="twelve" class="section">
            <div id="last" class="content">
                 <h2>What are you waiting for?</h2>
-                <h3>Go ahead and submit your email to be invited to our private beta.</h3>
+                <h3>Submit your email to be invited to our private beta.</h3>
                 <form method="POST" action="http://forms.brace.io/sboland926@gmail.com">
                 <label for="email">Enter your email: </label>
                 <input type="email" id="email" name="email" placeholder="you@that.com" alt="Enter your email">
                 <br/><br/><br/>
+                <input type="hidden" name="_next" value="http://flitti.com" />
                 <input class="button" id="submit" value="Send" type="submit">
                 </form>
             </div>
@@ -111,7 +120,10 @@
     <script src="js/fittext.js"></script>
     <script>
         jQuery("h1").fitText();
+        jQuery("img").fitText();
+        jQuery("h2").fitText(1.3);
         jQuery("h3").fitText(1.8);
+        jQuery("p").fitText(2);
     </script>
 </body>
 
