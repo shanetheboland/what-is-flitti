@@ -1,4 +1,4 @@
-$('div.section').first();
+$('div.splash-section').first();
 
 $('a.display').on('click', function(e) {
     e.preventDefault();
@@ -6,8 +6,8 @@ $('a.display').on('click', function(e) {
       var t = $(this).text(),
       that = $(this);
 
-    if (t === 'Next' && $('.current').next('div.section').length > 0) {
-        var $next = $('.current').next('.section');
+    if (t === 'Next' && $('.current').next('div.splash-section').length > 0) {
+        var $next = $('.current').next('.splash-section');
         var top = $next.offset().top;
         
         $('.current').removeClass('current');     
@@ -16,8 +16,8 @@ $('a.display').on('click', function(e) {
                $('html, body').animate({scrollTop: $('.current').offset().top }, 'slow');
             
         });
-  } else if (t === 'Previous' && $('.current').prev('div.section').length > 0) {
-        var $prev = $('.current').prev('.section');
+  } else if (t === 'Previous' && $('.current').prev('div.splash-section').length > 0) {
+        var $prev = $('.current').prev('.splash-section');
         var top = $prev.offset().top;
         
         $('.current').removeClass('current');
