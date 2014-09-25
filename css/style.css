@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 54px;
-    font: normal 700 5.4rem/1'Open Sans', Arial, sans-serif;
+    font: normal 700 5.4rem/1.4444'Open Sans', Arial, sans-serif;
 }
 h2 {
     font-size: 36px;
@@ -105,26 +105,29 @@ img {
     bottom: 0;
     width: 100%;
     background: rgba(0, 0, 0, .20);
-    height: 65px;
+    height: 50px;
     z-index: 1;
     text-align: right;
-    padding: 10px 20px;
 }
 .buttons {
     width: 580px;
     float: right;
+    display:inline;
+    line-height: 50px;
+    padding:4px;
 }
 .button {
     display: inline-block;
     color: #f1f1f1;
     width: 180px;
+    line-height:40px;
     text-decoration: none;
     background: #A0A4A5;
     text-align: center;
-    font-size: 27px;
+    font-size: 18px;
     box-shadow: 3px 3px 3px #6D7172;
     transition: all 0.2s ease;
-    padding: 4px;
+    padding: 1px;
 }
 .button:hover {
     background: #868A8B;
@@ -218,14 +221,13 @@ label {
     #last h1, #last h2, #last h3, #last h4, #last p, #last input {
         font-size: 180%;
     }
-}
 @media screen and (max-width: 480px) {
     .buttons {
         width: 100%;
     }
     .button {
         width: 45%;
-        font-size: 24px;
+        font-size: 18px;
     }
     input {
         width:75%;
