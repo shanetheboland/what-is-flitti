@@ -136,6 +136,7 @@ img {
 }
 .button.next {
     margin-left: 20px;
+    margin-top:1px;
     background: #3CA188;
     float: right;
     transition: all 0.2s ease;
@@ -227,7 +228,6 @@ label {
     }
     .button {
         width: 45%;
-        font-size: 18px;
     }
     input {
         width:75%;
