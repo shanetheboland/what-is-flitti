@@ -48,7 +48,7 @@ p {
 b, strong {
     font-weight: 700;
 }
-.small {
+.splash-section .small {
     font-size:14px;
 }
 .main {
@@ -73,34 +73,7 @@ b, strong {
     transform: translateY(-50%);
     color: #222;
 }
-img {
-    margin:0 auto;
-    width:auto;
-}
-.image-wrapper {
-    height:80%;
-    width:80%;
-}
-.half {
-    height:auto;
-    max-width: 40%;
-}
-.full {
-    max-width: 80%;
-    height: auto;
-}
-.half-portrait {
-    max-height:40%;
-    width: auto;
-}
-.full-portrait {
-    width: auto;
-    max-height: 600px;
-}
-.clear {
-    clear: both;
-}
-.navigation {
+.splash-navigation {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -109,14 +82,14 @@ img {
     z-index: 1;
     text-align: right;
 }
-.buttons {
+.splash-buttons {
     width: 580px;
     float: right;
     display:inline;
     line-height: 50px;
     padding:4px;
 }
-.button {
+.splash-button {
     display: inline-block;
     color: #f1f1f1;
     width: 180px;
@@ -129,39 +102,39 @@ img {
     transition: all 0.2s ease;
     padding: 1px;
 }
-.button:hover {
+.splash-button:hover {
     background: #868A8B;
     color: #D8D8D8;
     box-shadow: 3px 3px 6px #6D7172;
 }
-.button.next {
+.splash-button.next {
     margin-left: 20px;
     margin-top:1px;
     background: #3CA188;
     float: right;
     transition: all 0.2s ease;
 }
-.button.next:hover {
+.splash-button.next:hover {
     background: #3CA188;
     color: #D8D8D8;
     box-shadow: 3px 3px 6px #6D7172;
 }
-.button#submit {
+.splash-button#submit {
     outline: none;
     border: none;
     border-radius: 0px;
     background: #3CA188;
 }
-.button#submit:hover {
+.splash-button#submit:hover {
     background: #23886F;
 }
-input {
+.splash-section input {
     outline: none;
     border: none;
     border-bottom: 1px solid #222;
     font-size: 27px;
 }
-label {
+.splash-section label {
     font-size: 27px;
 }
 #one {
@@ -201,12 +174,12 @@ label {
     padding-bottom: 100px;
 }
 @media screen and (max-width:950px) {
-    h1, h2, h3, h4, p {
+    .splash-section h1, .splash-section h2, .splash-section h3, .splash-section h4, .splash-section p, .splash-section input {
         font-size: 300%;
     }
 }
 @media screen and (max-width:550px) {
-    h1, h2, h3, h4, p, input {
+   .splash-section h1, .splash-section h2, .splash-section h3, .splash-section h4, .splash-section p, .splash-section input {
         font-size: 250%;
     }
     #last h2 {
@@ -214,7 +187,7 @@ label {
     }
 }
 @media screen and (max-width:400px) {
-    h1, h2, h3, h4, p, input {
+    .splash-section h1, .splash-section h2, .splash-section h3, .splash-section h4, .splash-section p, .splash-section input {
         font-size: 200%;
     }
 }
@@ -223,13 +196,13 @@ label {
         font-size: 180%;
     }
 @media screen and (max-width: 480px) {
-    .buttons {
+    .splash-buttons {
         width: 100%;
     }
-    .button {
+    .splash-button {
         width: 45%;
     }
-    input {
+    .splash-content input {
         width:75%;
         margin:0 auto;
     }
