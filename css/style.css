@@ -196,6 +196,29 @@ label {
 .splash-content#last {
     padding-bottom: 100px;
 }
+@media screen and (max-width:950px) {
+    h1, h2, h3, h4, p {
+        font-size: 300%;
+    }
+}
+@media screen and (max-width:550px) {
+    h1, h2, h3, h4, p, input {
+        font-size: 250%;
+    }
+    #last h2 {
+        display:none;
+    }
+}
+@media screen and (max-width:400px) {
+    h1, h2, h3, h4, p, input {
+        font-size: 200%;
+    }
+}
+@media screen and (max-width:350px) {
+    #last h1, #last h2, #last h3, #last h4, #last p, #last input {
+        font-size: 180%;
+    }
+}
 @media screen and (max-width: 480px) {
     .buttons {
         width: 100%;
@@ -204,26 +227,8 @@ label {
         width: 45%;
         font-size: 24px;
     }
-}
-@media screen and (max-width: 700px) {
-    .splash-section {
-        min-height: 80%;
-        height: auto;
-    }
-    .splash-content:not(#last) {
-        position: relative;
-        top: 0%;
-        transform: translateY(10%);
-    }
-    .splash-content.img {
-        position: relative;
-        top: 100%;
-        transform: translateY(-50%);
-    }
-    .splash-content#last {
-        position: relative;
-        top: 0%;
-        transform: translateY(0%);
-        padding-bottom: 100px;
+    input {
+        width:75%;
+        margin:0 auto;
     }
 }
